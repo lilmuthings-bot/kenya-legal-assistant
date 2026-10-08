@@ -1,3 +1,7 @@
-Flask==3.0.3
-gunicorn==22.0.0
-requests==2.32.3
+# Kenya Legal Assistant - Python Requirements
+#
+# The core application runs natively using Python 3.10+ standard libraries:
+# (sqlite3, http.server, json, urllib, socketserver, datetime, os, sys)
+#
+# For production WSGI hosting on Render or Railway, gunicorn can be used:
+gunicorn>=21.2.0
