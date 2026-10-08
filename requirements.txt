@@ -1,4 +1,1 @@
-# Kenya Legal Assistant - Production Requirements
-# Runs with standard library (sqlite3, json, urllib, http.server)
-# Gunicorn provides production WSGI concurrency on Render / Railway
 gunicorn>=21.2.0
